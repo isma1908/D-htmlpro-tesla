@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.section img {
+    width: 100%;
+    height: auto;
+}
+.section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.section-content p {
+    font-size: 1.5rem;
+}
+.btn-custom {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+.btn-primary-custom {
+ background-color: #3e6ae1;
+  border: none;
+ }
+.btn-light-custom {
+     background-color: white;
+     color: black;
+     border: none;
+ }
+.footer {
+     background-color: black;
+     color: white;
+     padding: 20px;
+     text-align: center;
+ }
+.footer p {
+     margin: 0;
+     font-size: 0.8rem;
+ }
